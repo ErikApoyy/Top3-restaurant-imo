@@ -1,0 +1,83 @@
+body {
+  font-family: "Happy Monkey", cursive;
+  font-family: "Merienda", cursive;
+  color: black;
+  text-align: center;
+}
+
+.body1 {
+  border: 3px solid black;
+  padding: 30px 10px;
+  height: 200px;
+  background: url(https://media.giphy.com/media/3o7aDcZKDnbwMNjQGc/giphy.gif);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  background-color: coral;
+}
+.cta {
+  font-style: italic;
+  text-decoration: underline;
+  color: deepskyblue;
+  /* border-bottom: 3px solid deepskyblue; */
+}
+
+.img-logo {
+  border-radius: 10%;
+  border: 5px solid #a2d2ff;
+  height: 170px;
+  width: 170px;
+}
+
+.body2 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  background-image: url("images/wood-background.jpg");
+  display: flexbox;
+  justify-content: space-between;
+  height: 450px;
+  padding-bottom: 50px;
+}
+
+.restaurant-list {
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Rara,
+.chin-chin,
+.Ms-G {
+  font-style: bold;
+}
+
+.body3 {
+  padding: 20px;
+  border: 1px dotted blue;
+  margin: 10px auto 0 auto;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  background: #ddebf8;
+  border-bottom: 10px solid #d8cefe;
+  color: #2b2839;
+}
+
+.border-blue {
+  border: 1px dotted blue;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.sm_txt {
+  font-style: italic;
+  text-decoration: underline;
+}
